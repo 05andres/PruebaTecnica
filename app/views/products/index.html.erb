@@ -1,0 +1,6 @@
+<h2>LISTA DE PRODUCTOS</h2>
+
+<% @products.each do |product| %>
+  <%= link_to "Ver detalles", product, class: "px-4 py-2 rounded-md text-sm font-medium border-0 focus:outline-none focus:ring transition text-white bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 focus:ring-yellow-300" %>
+  <%= product.description %>
+<% end %>

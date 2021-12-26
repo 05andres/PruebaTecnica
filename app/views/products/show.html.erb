@@ -1,0 +1,8 @@
+<h1><%= @product.title %></h1>
+<p><%= @product.description %></p>
+
+<% @product.variants.each  do |variant| %>
+  <%= variant.title %>
+  <%= variant.description %>
+  <%= variant.price %>
+<% end %>
