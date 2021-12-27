@@ -13,15 +13,14 @@
 ActiveRecord::Schema.define(version: 2021_12_26_152024) do
 
   create_table "products", force: :cascade do |t|
-    t.string "title"
+    t.string "name"
     t.text "description"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "variants", force: :cascade do |t|
-    t.string "title"
-    t.text "description"
+    t.string "name"
     t.decimal "price"
     t.integer "product_id"
     t.datetime "created_at", precision: 6, null: false
