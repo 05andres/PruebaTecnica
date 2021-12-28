@@ -5,5 +5,5 @@ Rails.application.routes.draw do
       post :'create_many'
     end
   end
-
+  resources :dashboard , only: [:index]
 end

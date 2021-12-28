@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_12_26_152024) do
+ActiveRecord::Schema.define(version: 2021_12_27_211643) do
+
+  create_table "dashboards", force: :cascade do |t|
+    t.integer "requested"
+    t.integer "loaded"
+    t.integer "not_loaded"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "products", force: :cascade do |t|
     t.string "name"
