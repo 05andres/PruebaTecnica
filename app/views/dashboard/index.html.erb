@@ -1,5 +1,9 @@
 
 <h1 class="mt-10 text-center text-3xl text-blue-700 font-bold">Dashboard</h1>
+<div class="flickr_pagination flex justify-center mb-5">
+  <%= page_entries_info @status %>
+  <%= will_paginate @status, :container => false %>
+</div>
 <div class="grid grid-cols-3 space-x-5 place-items-center w-full mt-3">
   <% @status.each do |product| %>
     <div class=" py-4 px-8  my-5">
@@ -47,4 +51,9 @@
   <% end %>
 
 
+
+</div>
+<div class="flickr_pagination flex justify-center mb-5">
+  <%= page_entries_info @status %>
+  <%= will_paginate @status, :container => false %>
 </div>
