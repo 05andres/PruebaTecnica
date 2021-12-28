@@ -48,6 +48,7 @@
     <orderEntry type="library" scope="PROVIDED" name="capybara (v3.36.0, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="childprocess (v4.1.0, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.1.9, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="connection_pool (v2.2.5, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.10.0, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.15.4, ruby-3.0.3-p157) [gem]" level="application" />
@@ -76,6 +77,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.4.2, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v6.1.4.4, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v13.0.6, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="redis (v4.5.1, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.2.0, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rexml (v3.2.5, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v2.3.2, ruby-3.0.3-p157) [gem]" level="application" />
@@ -84,6 +86,7 @@
     <orderEntry type="library" scope="PROVIDED" name="sassc-rails (v2.1.2, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v4.1.0, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="semantic_range (v3.0.0, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sidekiq (v6.3.1, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v4.0.2, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.4.2, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.4.2, ruby-3.0.3-p157) [gem]" level="application" />
@@ -98,6 +101,7 @@
     <orderEntry type="library" scope="PROVIDED" name="webpacker (v5.4.3, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-driver (v0.7.5, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-extensions (v0.1.5, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="will_paginate (v3.3.1, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="xpath (v3.2.0, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="zeitwerk (v2.5.1, ruby-3.0.3-p157) [gem]" level="application" />
   </component>

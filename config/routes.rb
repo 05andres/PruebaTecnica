@@ -6,4 +6,6 @@ Rails.application.routes.draw do
     end
   end
   resources :dashboard , only: [:index]
+  require 'sidekiq/web'
+  mount Sidekiq::Web => '/sidekiq'
 end
