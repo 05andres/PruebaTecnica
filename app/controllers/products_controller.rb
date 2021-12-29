@@ -15,7 +15,7 @@ class ProductsController < ApplicationController
 
   def create_many
     products= JSON.parse(params[:_json].to_json)
-    HardWorker.perform_async(products)
+    DashboardJob.perform_later(products)
   end
 
   private
