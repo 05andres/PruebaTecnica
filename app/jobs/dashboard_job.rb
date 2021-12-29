@@ -6,17 +6,15 @@ class DashboardJob < ApplicationJob
     not_pass=0
     variants_array=[]
     products.each do |product|
-      if !product["variants"].empty?
+      product_valid=Product.new(name: product["name"], description: product["description"])
+      if  product_valid.valid? and !product["variants"].empty?
         product["variants"].each do |variant|
           new_variant=Variant.new(variant)
-          if new_variant.valid?
-            variants_array.push(variant)
-          end
+          variants_array.push(variant) if new_variant.valid?
         end
-        product=Product.new(name: product["name"], description: product["description"])
-        if product.valid? and !variants_array.empty?
-          product.save
-          product.variants.create(variants_array)
+        if !variants_array.empty?
+          product_valid.save
+          product_valid.variants.create(variants_array)
           variants_array=[]
           pass+=1
         else
