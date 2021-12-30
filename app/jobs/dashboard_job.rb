@@ -7,7 +7,7 @@ class DashboardJob < ApplicationJob
     variants_array=[]
     products.each do |product|
       product_valid=Product.new(name: product["name"], description: product["description"])
-      if  product_valid.valid? and !product["variants"].empty?
+      if  product_valid.valid? && !product["variants"].empty?
         product["variants"].each do |variant|
           new_variant=Variant.new(variant)
           variants_array.push(variant) if new_variant.valid?
